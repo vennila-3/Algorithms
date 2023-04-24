@@ -1,6 +1,8 @@
-
-
-
+ DEF:
+ kedane's Algorithm is an iterative dynamic programming algorithm
+ the subarray with negative sum is discarded (by assigning max_ending_here = 0 in code).
+– we carry subarray till it gives positive sum.
+Finding maximum subarray sum for a given array of integer
 
 
 
