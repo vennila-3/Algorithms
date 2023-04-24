@@ -1,0 +1,37 @@
+
+
+
+
+
+
+IMPLEMENTATION:      find maximum sub array sum in array
+
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+       int n=sc.nextInt();
+       int array[]=new int[n];
+       for(int i=0;i<n;i++)
+       {
+          array[i]= sc.nextInt();
+       }
+       System.out.print(sub(array,n));
+    }
+      static int sub(int a[],int n)
+    {
+        int end=0,min=Integer.MIN_VALUE;
+        for(int i=0;i<n;i++){
+        end=a[i] +end ;
+        if(end<a[i])
+        {
+       end=a[i];
+        }
+        if(min<end){
+            
+            min=end;
+        } 
+        }
+        return min;
+    }
+}
