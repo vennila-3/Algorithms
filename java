@@ -5,4 +5,3 @@ Pointers are used in C/ C++. Why does Java not make use of pointers?
 garbage collector?
 JIT.JRE,JVM  ?
 difference between equals() method and equality operator (==) in Java?
-
